@@ -1,3 +1,5 @@
+# Mid Level 1
+
 This is a time for you to test your coding skills and prepare yourself for an interview. Below you will see two code challenges for you to complete. You will also need to add comments or pseudo-code to your project in order to talk through your process and solutions. Next, you will complete a quiz that will test the knowledge you have gained so far. Once you have completed the challenges, schedule an assessment to review with an instructor where you will complete a third coding challenge live!
 
 HTML
