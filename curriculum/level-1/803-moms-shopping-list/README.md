@@ -20,7 +20,6 @@ To remove the nested `.git` folder, follow these instructions:
 cd moms-shopping-list-start
 rm -rf .git
 ```
-Follow the instructions in the README.
 
 > 
 Note: The three items already there are to show how the rest should be structured, but should be removed or commented out before moving on to part 2.
