@@ -1,40 +1,59 @@
-## Submitting your assignment
+Write a game that lets a user escape a room. The character finds him/herself locked in a room. In order to escape the room, your character needs to find the key in the room and then open the door. There's also a hole in the wall in the room. If your character puts his hand in the hole, he dies.
 
-To submit your assignment, you need to push your changes to GitHub. Follow these steps:
+# **Game start:**
 
-### Using Git Command Line
+Tell the user their options:
 
-Follow these steps to push your changes to GitHub using Git command line.
+1. Find the key, or
+2. Put hand in hole
+3. Open the door
+    
+    
 
-Open your Terminal and follow the steps below:
+They can't open the door unless they find the key first.They die if they put their hand in the hole.
 
+# **JavaScript tools that may help**
 
-1. **Add Your Changes**: Add the files you have worked on. If you want to add all changes:
-   ```git add .```
+- while loop
+- variables
+- booleans
+- if/else if/else OR switch statement
+- `readline-sync` (syntax for installing and using below)
 
-   If you want to add only a specific folder, use:
-   ```git add path/to/your/folder```
+# **To use `readline-sync` in your game:**
 
-2. **Commit Your Changes**: Commit the changes with a meaningful message:
-   ```git commit -m "Add assignment submission for [your name]"```
+In terminal:
 
-3. **Push to GitHub**: Push the changes to the GitHub repository:
-   ```git push origin main```
+```jsx
+# cd into escape room's folder
+npm install readline-sync
 
-### Using VSCode's Source Control
+```
 
-Alternatively, you can use VSCode's built-in Source Control feature:
+In your JavaScript code:
 
-1. **Open the Repository**: Click on the source control tab in VSCode.
+```jsx
+const readline = require("readline-sync");
+const name = readline.question("What is your name? ");
 
-2. **Stage Your Changes**: Stage the files you want to submit by clicking the "+" icon next to each file or folder in the Source Control view.
+```
 
-3. **Commit Your Changes**: Enter a commit message in the text field at the top of the Source Control view and press Enter to commit your changes.
+Problem solving approach:
 
-4. **Push to GitHub**: Click the three dots (...) in the top-right corner of the Source Control view and select "Push" from the dropdown menu to push your changes to GitHub.
+Attempt this assignment using just the requirements above. If you get stumped, it's ok to read through the following tips. Attempt the problems solving process by yourself first! It's the best way to get better at it.
 
-### Example: Pushing a Specific Folder
+You may find yourself asking where to start. This program will need to ask the user a question over and over. Because of this, we will need a loop.
 
-If you only want to push changes from a specific folder (e.g., `assignments/week1`), you can do so using either method above.
+The program will ask the same question, but respond in different ways depending on things that vary. Before our loop, we may need to define a couple variables.
 
-By following these steps, you can successfully submit your assignment to GitHub using either Git command line or VSCode's Source Control.
+I don't want to give away the whole assignment, but imagine we were interested in counting how many times the user was asked a question. We could define `count` and set it to 0. What variables would you want to define before the for loop for the requirements of this assignment?
+
+These variables will toggle. What data type would be good for a toggle?
+
+Make sure you know the difference between the assignment operator `=` and the "is equal to" operators, `==` and `===`.
+
+You will use if statements, and likely nested if statements to solve this code challenge.
+
+console.logs are a must!! Make sure you know what lines in what order will run when the user (you, as the tester) does different things. Console.logs will confirm what you know, or show you where you're thinking about things wrong. You may need a friend to talk it through, but the console will get you in the right direction!
+
+> Remember to submit your assignment by pushing it to Github!
