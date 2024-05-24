@@ -10,6 +10,16 @@ You should be able to delete items by clicking the [x]:
 
 Use the following [repo](https://github.com/VSchool/moms-shopping-list-start) to start your project. This code will help you understand any patterns you should use when completing this assignment.
 
+```bash
+git clone https://github.com/VSchool/moms-shopping-list-start
+```
+
+To remove the nested `.git` folder, follow these instructions:
+
+```bash
+cd moms-shopping-list-start
+rm -rf .git
+```
 Follow the instructions in the README.
 
 > 
