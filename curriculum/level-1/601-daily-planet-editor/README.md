@@ -23,7 +23,9 @@ To submit your assignment, you need to push your changes to GitHub. Follow these
 
 ### Using Git Command Line
 
-Follow these steps to push your changes to GitHub using Git command line:
+Follow these steps to push your changes to GitHub using Git command line.
+
+Open your Terminal and follow the steps below:
 
 
 1. **Add Your Changes**: Add the files you have worked on. If you want to add all changes:
