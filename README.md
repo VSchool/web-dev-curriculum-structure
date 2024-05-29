@@ -26,7 +26,7 @@ Alternatively, you can use VSCode's built-in Source Control feature:
 
 1. **Open the Repository**: Click on the source control tab in VSCode.
 
-2. **Stage Your Changes**: Stage the files you want to submit by clicking the "+" icon next to each file or folder in the Source Control view.
+2. **Stage Your Changes**: Stage the files you want to submit by clicking the "+" icon next to each file in the Source Control view.
 
 3. **Commit Your Changes**: Enter a commit message in the text field at the top of the Source Control view and press Enter to commit your changes.
 
