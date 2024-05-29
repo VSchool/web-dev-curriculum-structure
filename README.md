@@ -12,7 +12,7 @@ Open your Terminal and follow the steps below:
 
 
 1. **Add Your Changes**: Add the files you have worked on. 
-   ```git add <relative/path/to/assignment/file>```
+   ```git add <relative/path/to/assignment/folder>```
 
 2. **Commit Your Changes**: Commit the changes with a meaningful message:
    ```git commit -m “submitting assignment <name>```
@@ -31,9 +31,5 @@ Alternatively, you can use VSCode's built-in Source Control feature:
 3. **Commit Your Changes**: Enter a commit message in the text field at the top of the Source Control view and press Enter to commit your changes.
 
 4. **Push to GitHub**: Click the three dots (...) in the top-right corner of the Source Control view and select "Push" from the dropdown menu to push your changes to GitHub.
-
-### Example: Pushing a Specific Folder
-
-If you only want to push changes from a specific folder (e.g., `assignments/week1`), you can do so using either method above.
 
 By following these steps, you can successfully submit your assignment to GitHub using either Git command line or VSCode's Source Control.
