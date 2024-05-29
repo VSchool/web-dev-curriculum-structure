@@ -12,7 +12,7 @@ Open your Terminal and follow the steps below:
 
 
 1. **Add Your Changes**: Add the files you have worked on. 
-   ```git add <relative/path/to/assignment/folder>```
+   ```git add <relative/path/to/assignment/file>```
 
 2. **Commit Your Changes**: Commit the changes with a meaningful message:
    ```git commit -m “submitting assignment <name>```
